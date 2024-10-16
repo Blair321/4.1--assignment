@@ -41,12 +41,16 @@ console.log('test of multiplication for three numbers', multiplyThree(8,6,4));
 //    or greater than zero, and false otherwise
 function isPositive(number) {
   if (number > 0) {
-    return;
+    return true;
   }
-  return;
+  else (number < 0) 
+  return false;
 }
+
 // Call the function to test each outcome (true & false) 
 // Write a separate console.log statement for each outcome
+console.log('Test if it is true', isPositive(1));
+console.log('Test if false', isPositive(-1));
 
 
 // 6. Function to return the _last_ item in an array. If the 
