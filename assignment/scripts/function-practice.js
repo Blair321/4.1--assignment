@@ -16,6 +16,7 @@ console.log('Test - should say "Hello World!"', hello());
 //    for example 'Hello, Jo!', or 'Hello, Stacy!'
 function helloName(name) { 
   return;
+  
 }
 
 // Remember to call the function to test
@@ -48,6 +49,8 @@ function isPositive(number) {
 }
 
 // Call the function to test each outcome (true & false) 
+isPositive(1);
+isPositive(-1);
 // Write a separate console.log statement for each outcome
 console.log('Test if it is true', isPositive(1));
 console.log('Test if false', isPositive(-1));
