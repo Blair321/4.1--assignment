@@ -91,6 +91,7 @@ function find(value, array) {
   return false;
   // find()
 }
+console.log(find(2,(2, 3, 4)));
 
 
 // ----------------------
